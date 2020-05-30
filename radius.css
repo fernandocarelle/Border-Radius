@@ -1,0 +1,58 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #6D6875;
+    font-family: sans-serif;
+}
+
+body h1 {
+    text-align: center;
+}
+
+.inputBorder1 {
+    position: absolute;
+    margin-left: 370px;
+    width: 50px;
+}
+.inputBorder2 {
+    position: absolute;
+    margin-left: 995px;
+    width: 50px;
+    
+}
+.inputBorder3 {
+    position: absolute;
+    margin-left: 370px;
+    width: 50px;
+    margin-top: -40px;
+    
+}
+
+.inputBorder4 {
+    position: absolute;
+    margin-left: 995px;
+    width: 50px;
+    margin-top: -40px;
+
+}
+
+
+
+.border {
+    background-color: #B5838D;
+    width: 500px;
+    height: 500px;
+    margin-left: 32%;
+    position: relative;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.codigo {
+    margin-top: 20px;
+    margin-left: 32%;
+}
+
+
+.areacodigo {
+    width: 490px;
+}
