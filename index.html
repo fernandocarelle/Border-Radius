@@ -9,18 +9,27 @@
     <link href="radius.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
-    <h1>Simulador de Border Radius</h1>
+    <div>
+        <h1>Simulador de Border Radius</h1>
+    </div> 
     <div class="container" id="icontainer">
-        <input type="number" name="top_r" class="inputBorder1" id="superiorEsquerdo" onchange="simular()">
-        <input type="number" name="top_r" class="inputBorder2" id="superiorDireito" onchange="simular()">
+        <div class="superior">
+            <input type="number" name="top_r" class="inputBorder1" id="superiorEsquerdo" onchange="simular()">
+            <input type="number" name="top_r" class="inputBorder2" id="superiorDireito" onchange="simular()">    
+        </div>
         <p class="border" id="iborder"></p>
-        <input type="number" name="top_r" class="inputBorder3" id="inferiorEsquerdo" onchange="simular()">
-        <input type="number" name="top_r" class="inputBorder4" id="inferiorDireito" onchange="simular()">
+        <div class="inferior">
+            <input type="number" name="top_r" class="inputBorder3" id="inferiorEsquerdo" onchange="simular()">
+            <input type="number" name="top_r" class="inputBorder4" id="inferiorDireito" onchange="simular()">    
+        </div>
     </div>
     <div class="codigo" id="icodigo">
         <input type="text" name="codigo" class="areacodigo" id="codigo">
+        <button onclick="copiarTexto()" class="btn">Copiar</button>
     </div>
+
+    <script type="text/javascript" src="radius.js"></script>
 </body>
-<script type="text/javascript" src="radius.js"></script>
+
 
 </html>

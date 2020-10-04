@@ -3,56 +3,83 @@ body {
     margin: 0px;
     background-color: #6D6875;
     font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
 }
 
-body h1 {
+/* body h1 {
     text-align: center;
-}
-
-.inputBorder1 {
-    position: absolute;
-    margin-left: 370px;
-    width: 50px;
-}
-.inputBorder2 {
-    position: absolute;
-    margin-left: 995px;
-    width: 50px;
-    
-}
-.inputBorder3 {
-    position: absolute;
-    margin-left: 370px;
-    width: 50px;
-    margin-top: -40px;
-    
-}
-
-.inputBorder4 {
-    position: absolute;
-    margin-left: 995px;
-    width: 50px;
-    margin-top: -40px;
-
-}
-
-
+} */
 
 .border {
     background-color: #B5838D;
-    width: 500px;
-    height: 500px;
-    margin-left: 32%;
-    position: relative;
+    width: 40vh;
+    height: 40vh;
     border-radius: 0px 0px 0px 0px;
+}
+.superior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inferior {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.inputBorder1 {
+    width: 5vh;
+    float: left;
+
+}
+
+.inputBorder2 {
+    width: 5vh;
+    float: right;
+
+}
+.inputBorder3 {
+    width: 5vh;
+    float: right;
+
+}
+.inputBorder4 {
+    width: 5vh;
+    float: left;
+
 }
 
 .codigo {
-    margin-top: 20px;
-    margin-left: 32%;
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    margin-top: 30px;
 }
-
 
 .areacodigo {
-    width: 490px;
+    outline: none;
 }
+
+.btn {
+    outline: none;
+    cursor: pointer;
+    background-color: #B5838D;
+    margin-top: 15px;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #B5838D;
+    border: 1px solid #B5838D;
+}
+
